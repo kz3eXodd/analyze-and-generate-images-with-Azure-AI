@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import './azure-image-analysis';
 
 function App() {
   const [imageUrl, setImageUrl] = useState('');
@@ -15,6 +15,7 @@ function App() {
 
   const handleGenerationClick = () => {
     // Perform image generation logic here
+    // analyzeImage();
     console.log('Image generation triggered');
   };
 
